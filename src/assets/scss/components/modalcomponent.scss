@@ -1,0 +1,40 @@
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.button-save-class {
+  background-color: #f86060 !important;
+}
+.bg_color_F2C94C {
+  background-color: #f2c94c !important;
+}
+.bg_color_0990F2 {
+  background-color: #0990f2 !important;
+}
+.image_preview_challenge {
+  width: 200px;
+  height: 180px;
+  object-fit: contain;
+}
+.center_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .button-cancel-class{
+// //     background-color: #F86060 !important;
+// // }

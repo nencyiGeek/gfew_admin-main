@@ -1,0 +1,23 @@
+.vertical-timeline::before {
+  background-color: #f2efef;
+}
+.vertical-timeline {
+  width: 55% !important;
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    color: darkgray;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-icon {
+    width: 45px !important;
+    height: 45px !important;
+    left: 50%;
+    margin-left: -23px !important;
+  }
+}

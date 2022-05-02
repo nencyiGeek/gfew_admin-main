@@ -1,0 +1,47 @@
+.wrapper_css{
+    background: #15B769
+}
+
+.white_text{
+color: #ffffff !important;
+}
+.white_btn {
+    background: transparent none repeat scroll 0 0 !important;
+    border-radius: 30px !important;
+    border: 1px solid #fff !important;
+    padding: 8px 11px !important;
+    font-size: 12px !important;
+    margin-top: 5px !important;
+    color: white;
+}
+.white_background{
+    background: #ffffff !important;
+}
+.pricing_background{
+    background-color: #0fb769 !important;
+}
+.app_store{
+    width: 130px;
+    height: 50px;
+}
+.signupBackground {
+    background: #98DBA9;
+}
+
+.signup_btn{
+    background: #295940 none repeat scroll 0 0!important;
+    border-radius: 30px !important;
+    border: 1px solid #fff !important;
+    padding: 8px 8px !important;
+    font-size: 12px !important;
+    margin-top: 5px !important;
+    /* height: 10% !important;*/
+    width: 10% !important; 
+}
+.footer_background{
+    background: #295940;
+}
+.white_appstore {
+    width: 100px;
+    height: 40px;
+}

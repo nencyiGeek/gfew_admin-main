@@ -1,0 +1,501 @@
+.mobile-view-login-logo{
+        display: none;
+}
+
+.sign-up-title{
+    color: #f85d0d;
+    font-weight: bolder;
+
+    font-size: larger;
+}
+
+.border-dashed-bottom{
+    border-bottom: 2px dashed lightgray;
+}
+
+.login-title{
+    text-align: center;
+}
+
+.login-view-content{
+    font-size: 15px;
+    text-align: center;
+}
+
+.forgot-password-label{
+    margin-left: auto;
+}
+
+.facebook-icon{
+    height: 46px;
+    width: 46px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.facebook-icon svg{
+    height: 21px;
+    width: 40px;
+    margin-top: 12px;
+    color: green;
+    }
+
+.icon-login-list{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: 15px auto;
+    width: 62%;
+    @media screen and (min-width: 1400px) {
+        width: 70%;
+    }
+    @media screen and (min-width: 990px) and (max-width: 1400px) {
+        width: 65%;
+    }
+    @media screen and (min-width: 430px) and (max-width: 740px) {
+        width: 75%;
+    }
+}
+
+.sign-up-label{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center !important;
+    margin-top: 15px;
+    display: flex;
+    font-size: inherit;
+}
+
+
+.sign-up-label label{
+    // text-align: center;
+    // margin-top: 15px;
+    // display: flex;
+    font-size: inherit;
+}
+
+
+.sign-up-label p{
+    color: #c4740a;
+    cursor: pointer;
+}
+.challenge-view{
+    background: #f3b034;
+}
+.challenge-view-body{
+    background: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+}
+.challenge-header-title{
+    width: 100%;
+    background: #f3b034;
+}
+.join-challenge-button{
+    float: left;
+    background: #dccf2b !important;
+    font-weight: bold;
+}
+
+.challenge-header-title img{
+    width: 150px;
+    height: 150px;
+}
+
+.challenge-title h2 {
+    color: white;
+    text-align: left;
+    font-weight: bolder;
+}
+.challenge-title {
+    color: white;
+    font-size: 15px;
+
+}
+.challenge-desc-info{
+    margin-bottom: 10px;
+}
+
+.challenge-desc-info .challenge-col{
+    margin-top: 10px;
+}
+
+.card-with-shadow{
+    box-shadow: 0px 25px 25px 0px #bebebe;
+    // border-radius: 10%;
+}
+.card-title-with-full-width{
+    width: 100%;
+}
+.date-label{
+    font-size: larger;
+}
+.time-label{
+    font-size: initial;
+    color: #9b9bb5;
+}
+.online-event-join-button{
+    float: right;
+}
+.invite-friend-image{
+    height: 200px;
+    width: 200px;
+}
+.dish-name-title{
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.dish-name-time{
+    font-size: small;
+}
+.dishes-image-view{
+    height: 200px;
+    width: 100%;
+}
+.dishes-like-comment-icon{
+    font-size: large;
+}
+.comment-icon{
+    transform: rotateY(180deg);
+}
+.rule-image-view{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 51%;
+}
+.rule-image-label{
+    margin-left: 30%;
+    // position: fixed;
+}
+.todo-tab-view{
+    box-shadow: 0px 25px 25px 0px #bebebe;
+    // width: 25%;
+    margin: 10px;
+    border-radius: 10%;
+}
+.todo-image-view{
+    height: 100%;
+    width: 100%;   
+}
+.todo-check-image-view-brown{
+    height: 60px;
+    position: absolute;
+    top: 76%;
+    left: 70%;
+    width: 30%;
+    background: #56352d;
+    border-top-left-radius: 20%;
+    // border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    // border-bottom-left-radius: 20%;
+}
+.todo-check-image-view{
+    height: 60px;
+    position: absolute;
+    top: 76%;
+    left: 70%;
+    width: 30%;
+    background: #f1efef;
+    border-top-left-radius: 20%;
+    // border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    // border-bottom-left-radius: 20%;
+}
+.todo-icon-checked{
+    margin: 30%;
+    color: #6f5b5b;
+}
+
+.todo-icon-checked-brown{
+    margin: 30%;
+    color: white;
+}
+// .rule-image-view label{
+//     margin-left: 30%;
+// }
+
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+    .mobile-view-fullscreen{
+        height: 100%;
+    }
+    .mobile-view-login-logo{
+        display:inherit;
+        width: 100%;
+        padding: 50px;
+    }
+    .challenge-header-title img {
+        width: 100px;
+        height: 100px;
+    }
+    .invite-friend-image{
+        height: 100px;
+        width: 100px;
+    }
+    .rule-image-view{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        border-radius: 51%;
+    }
+    .dishes-image-view{
+        height: 100px;
+        width: 100%;
+    }
+
+    .todo-check-image-view-brown{
+        height: 50px;
+        position: absolute;
+        top: 68%;
+        left: 70%;
+        width: 30%;
+        background: #56352d;
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+    .todo-check-image-view{
+        height: 50px;
+        position: absolute;
+        top: 68%;
+        left: 70%;
+        width: 30%;
+        background: #f1efef;
+        border-top-left-radius: 20%;
+        // border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+        // border-bottom-left-radius: 20%;
+    }
+
+    .todo-icon-checked-brown{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+    .todo-icon-checked{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .mobile-view-fullscreen{
+        height: 100%;
+    }
+    .mobile-view-login-logo{
+        display:inherit;
+        width: 100%;
+        padding: 50px;
+    }
+    .challenge-header-title img {
+        width: 100px;
+        height: 100px;
+    }
+    .invite-friend-image{
+        height: 100px;
+        width: 100px;
+    }
+    .rule-image-view{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        border-radius: 51%;
+    }
+    .dishes-image-view{
+        height: 100px;
+        width: 100%;
+    }
+
+    .todo-check-image-view-brown{
+        height: 60px;
+        top: 73%;
+        left: 70%;
+        width: 30%;
+    }
+    .todo-check-image-view{
+        height: 60px;
+        top: 73%;
+        left: 70%;
+        width: 30%;
+    }
+    .todo-icon-checked-brown{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+    .todo-icon-checked{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 500px) {
+    .mobile-view-fullscreen{
+        height: 100%;
+    }
+    .mobile-view-login-logo{
+        display:inherit;
+        width: 100%;
+        padding: 50px;
+    }
+    .challenge-header-title img {
+        width: 100px;
+        height: 100px;
+    }
+    .invite-friend-image{
+        height: 100px;
+        width: 100px;
+    }
+    .rule-image-view{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        border-radius: 51%;
+    }
+    .dishes-image-view{
+        height: 100px;
+        width: 100%;
+    }
+
+    .todo-check-image-view-brown{
+        height: 60px;
+        top: 75%;
+        left: 70%;
+        width: 30%;
+    }
+    .todo-check-image-view{
+        height: 60px;
+        top: 75%;
+        left: 70%;
+        width: 30%;
+    }
+    .todo-icon-checked-brown{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+    .todo-icon-checked{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 500px) and (min-width: 400px) {
+    .mobile-view-fullscreen{
+        height: 100%;
+    }
+    .mobile-view-login-logo{
+        display:inherit;
+        width: 100%;
+        padding: 50px;
+    }
+    .challenge-header-title img {
+        width: 100px;
+        height: 100px;
+    }
+    .invite-friend-image{
+        height: 100px;
+        width: 100px;
+    }
+    .rule-image-view{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        border-radius: 51%;
+    }
+    .dishes-image-view{
+        height: 100px;
+        width: 100%;
+    }
+
+    .todo-check-image-view-brown{
+        height: 50px;
+        top: 71%;
+        left: 70%;
+        width: 30%;
+    }
+    .todo-check-image-view{
+        height: 50px;
+        top: 71%;
+        left: 70%;
+        width: 30%;
+    }
+    .todo-icon-checked-brown{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+    .todo-icon-checked{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .mobile-view-fullscreen{
+        height: 100%;
+    }
+    .mobile-view-login-logo{
+        display:inherit;
+        width: 100%;
+        padding: 50px;
+    }
+    .challenge-header-title img {
+        width: 100px;
+        height: 100px;
+    }
+    .invite-friend-image{
+        height: 100px;
+        width: 100px;
+    }
+    .rule-image-view{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        border-radius: 51%;
+    }
+    .dishes-image-view{
+        height: 100px;
+        width: 100%;
+    }
+
+    .todo-check-image-view-brown{
+        height: 50px;
+        top: 68%;
+        left: 70%;
+        width: 30%;
+    }
+    .todo-check-image-view{
+        height: 50px;
+        top: 68%;
+        left: 70%;
+        width: 30%;
+    }
+    .todo-icon-checked-brown{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+    .todo-icon-checked{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+
+}

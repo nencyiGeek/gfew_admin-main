@@ -1,0 +1,85 @@
+.title_card_challenge {
+  font-weight: 900;
+  font-size: 1.3rem;
+  max-width: 550px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.date_div_challenge {
+  max-width: 550px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card_h_100 {
+  height: 95%;
+  box-shadow: none;
+  border: 1px solid lightgrey;
+  border-radius: 11px !important;
+}
+.img-fluid {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 240px;
+}
+.text_9b9bb5_color_challenge {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9b9bb5;
+}
+
+// .slick-dots li.slick-active button:before {
+//   color: #881798;
+// }
+
+// .slick-prev:before,
+// .slick-next:before {
+//   color: #881798;
+// }
+
+// .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+//   color:black !important;
+// }
+
+.slick-prev, .slick-next{
+  color:white !important;
+  background: transparent !important;
+}
+.slick-prev::before {
+  content: '❮'!important;
+  color: black !important;
+}
+.slick-next:before {
+  content: '❯' !important;
+  color: black !important;
+}
+
+.badge_class {
+  margin-right: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  font-weight: 600;
+  font-size: 10px;
+}
+.button_color {
+  background-color: #f2c94c !important;
+}
+// .button_color_0990f2{
+//   background-color: #0990f2 !important;
+// }
+/*
+ *  STYLE 4
+ */
+
+.badge_scroll::-webkit-scrollbar-track {
+  display: none;
+}
+
+.badge_scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.badge_scroll::-webkit-scrollbar-thumb {
+  display: none;
+}

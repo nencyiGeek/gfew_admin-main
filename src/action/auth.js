@@ -3,11 +3,7 @@ import httpProcessor from "../config/httpProcessor";
 // import { push } from "connected-react-router";
 import { history } from "../history"
 
-// import { App } from "../constants";
-// import { setRefreshToken, putApiHeader, postApiHeader } from "../config";
-// import { toast, Bounce } from "react-toastify";
-// import { toaster } from "../util";
-// import axios from 'axios';
+
 const {
   API_ROOT,
   URI,
